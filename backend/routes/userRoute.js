@@ -5,7 +5,12 @@ const router = express.Router();
 const app = express();
 const zod = require("zod")
 const jwt = require("jsonwebtoken");
-const {JWT_SECRET}= require("../config");
+
+require('dotenv').config();
+
+
+const JWT_SECRET = process.env.JWT_SECRET;
+
 const userMiddleWare = require("../middlewares/userMiddleware")
 app.use(bodyparser.json());
 
