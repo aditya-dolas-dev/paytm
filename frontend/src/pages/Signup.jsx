@@ -52,7 +52,7 @@ export const Signup = () => {
             <Button
               onClick={async () => {
                 const response = await axios.post(
-                  "http://localhost:5000/api/v1/user/signup",
+                  "https://paytm-q8rz.onrender.com/api/v1/user/signup",
                   {
                     username,
                     firstname,
