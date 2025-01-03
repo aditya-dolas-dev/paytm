@@ -10,7 +10,7 @@ export const Users = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/v1/user/bulksearch?filter=" + filter)
+      .get("https://paytm-q8rz.onrender.com/api/v1/user/bulksearch?filter=" + filter)
       .then((response) => {
         setUsers(response.data.user);
       });
