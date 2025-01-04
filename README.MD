@@ -1,4 +1,4 @@
-# Paytm Money Transfer Application
+# Paytm Money Transfer Wallet
 
 This is a basic full-stack application that mimics the core functionality of Paytm by allowing users to transfer money between accounts. The app demonstrates CRUD operations and serves as a foundation for understanding full-stack development concepts.
 
